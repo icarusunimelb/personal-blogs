@@ -1,4 +1,5 @@
 ---
+categories: ["skills-github-pages"]
 title: "From deep learning to Bayesian neural network: 0 - Introduction"
 date: 2024-12-02
 ---
