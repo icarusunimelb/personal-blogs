@@ -39,8 +39,8 @@ For i from 1 to T (epoches)
 ```
 
 To compute partial derivatives \\\(\frac{\partial L}{\partial w_i^l}\\\), backpropagation leverages the chain rule. For example, given \\\(z=g(u)\\\) and \\\(u=f(x)\\\), the chain rule states that the derivative can be expressed as \\\(\frac{dz}{dx} = \frac{dz}{du}\frac{du}{dx}\\\). Similarly, in the context of NNs, the derivatives are computed as:
-\\\[\frac{\partial L}{\partial w_i^L} = \frac{\partial L}{\partial h^L}\frac{\partial h^L}{\partial w_i^L} \tag[2]\\\]
-\\\[\frac{\partial L}{\partial w_i^{L-1}} = \frac{\partial L}{\partial h^L}\frac{\partial h^L}{\partial x^{L-1}}\frac{\partial x^{L-1}}{\partial h^{L-1}}\frac{\partial h^{L-1}}{\partial w_i^{L-1}} \tag[3]\\\]
+\\\[\frac{\partial L}{\partial w_i^L} = \frac{\partial L}{\partial h^L}\frac{\partial h^L}{\partial w_i^L} \tag{2}\\\]
+\\\[\frac{\partial L}{\partial w_i^{L-1}} = \frac{\partial L}{\partial h^L}\frac{\partial h^L}{\partial x^{L-1}}\frac{\partial x^{L-1}}{\partial h^{L-1}}\frac{\partial h^{L-1}}{\partial w_i^{L-1}} \tag{3}\\\]
 and so forth.
 
 
