@@ -7,7 +7,7 @@ date: 2024-12-05
 Deep learning has become a prominent research field, with numerous architectures and training algorithms proposed. We start with the simplest case: training multi-layer perceptrons (feedforward neural networks) using the stochastic gradient descent (SGD) algorithm for supervised learning tasks. 
 
 A feed-forward neural network (NN) consisting of \\\(L\\\) layers, each defined by weight matrices \\\(W^1,...,W^L\\\) and post-activation vectors \\\(x^1,...,x^L\\\), with \\\(N_l\\\) neurons per layer. Then the network dynamics, starting from the input \\\(x^0\\\), are described by 
-\\\[x^l=\phi(h^l), h^l=Wx^{l-1}+b^l, \text{ for }l=1,...,L,\tag{1}\\\]
+\\\[x^l=\phi(h^l), h^l=W^lx^{l-1}+b^l, \text{ for }l=1,...,L,\tag{1}\\\]
 where \\\(b^l\\\) denotes the bias vector, \\\(h^l\\\) represents the linear pre-activations, and \\\(\phi\\\) is a non-linear activation function. A complete set of NN parameters is \\\(\theta=\\\{W^l,b^l\\\}_{l=1}^L\\\), and the output for input \\\(x^0\\\) is \\\(\hat{y}=h^L=f(x^0,\theta)\\\), where the mapping function \\\(f\\\) is recursively defined by Eq. [1]. 
 
 <p align="center">
@@ -35,8 +35,13 @@ Choose initial guess θ⁰, k=0
 For i from 1 to T (epoches) 
     For j from 1 to N (training samples) 
         Consider a sample {xⱼ,yⱼ}\
-        Update: θᵏ⁺¹^{k+1}=θᵏ-𝝁∇ L(ŷⱼ,yⱼ); k=k+1
+        Update: θᵏ⁺¹=θᵏ-𝝁∇ L(ŷⱼ,yⱼ); k=k+1
 ```
+
+To compute partial derivatives \\\(\frac{\partial L}{\partial w_i^l}\\\), backpropagation leverages the chain rule. For example, given \\\(z=g(u)\\\) and \\\(u=f(x)\\\), the chain rule states that the derivative can be expressed as \\\(\frac{dz}{dx} = \frac{dz}{du}\frac{du}{dx}\\\). Similarly, in the context of NNs, the derivatives are computed as:
+\\\[\frac{\partial L}{\partial w_i^L} = \frac{\partial L}{\partial h^L}\frac{\partial h^L}{\partial w_i^L} \tag[2]\\\]
+\\\[\frac{\partial L}{\partial w_i^{L-1}} = \frac{\partial L}{\partial h^L}\frac{\partial h^L}{\partial x^{L-1}}\frac{\partial x^{L-1}}{\partial h^{L-1}}\frac{\partial h^{L-1}}{\partial w_i^{L-1}} \tag[3]\\\]
+and so forth.
 
 
 
