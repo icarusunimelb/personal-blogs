@@ -24,13 +24,13 @@ Figure 1 illustrates the structure of a single perceptron, which functions as a 
 
 Optimizing neural network parameters typically involves an iterative process, known as "training," to minimize the loss function.
 <p align="center">
-<img src="https://github.com/icarusunimelb/skills-github-pages/blob/main/_posts/figures/training-loop.png?raw=true" alt="training-loop" title="training-loop" width="60%" height="60%">
+<img src="https://github.com/icarusunimelb/skills-github-pages/blob/main/_posts/figures/training-loop.png?raw=true" alt="training-loop" title="training-loop" width="80%" height="80%">
 <div style="text-align: center;">Fig.3. Training loop</div>
 </p>
 
 A common approach for training multi-layer perceptrons is the SGD algorithm, where \\\(L(\hat{y},y)\\\) represents the loss function quantifying the discrepancy between \\\(\hat{y}\\\) and \\\(y\\\).
-```
-Choose initial guess \\\(\theta^0, k=0\\\)
+```{math}
+Choose initial guess \(\theta^0, k=0\)
 For i from 1 to T (epoches)
     For j from 1 to N (training samples)
         Consider a sample {\\\(x_j,y_j\\\)}
