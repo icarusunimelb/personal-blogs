@@ -35,10 +35,10 @@ Choose initial guess θ⁰, k=0
 For i from 1 to T (epoches) 
     For j from 1 to N (training samples) 
         Consider a sample {xⱼ,yⱼ}\
-        Update: θᵏ⁺¹=θᵏ-𝝁∇ L(ŷⱼ,yⱼ); k=k+1
+        Update: θᵏ⁺¹=θᵏ-𝝁∇L(ŷⱼ,yⱼ); k=k+1
 ```
 
-To compute partial derivatives \\\(\frac{\partial L}{\partial w_i^l}\\\), backpropagation leverages the chain rule. For example, given \\\(z=g(u)\\\) and \\\(u=f(x)\\\), the chain rule states that the derivative can be expressed as \\\(\frac{dz}{dx} = \frac{dz}{du}\frac{du}{dx}\\\). Similarly, in the context of NNs, the derivatives are computed as:
+To compute partial derivatives \\\(\frac{\partial L}{\partial w_i^l}\\\) for updating weights, backpropagation is employed, which is based the chain rule. For example, given \\\(z=g(u)\\\) and \\\(u=f(x)\\\), the chain rule states that the derivative can be expressed as \\\(\frac{dz}{dx} = \frac{dz}{du}\frac{du}{dx}\\\). Similarly, in the context of NNs, the derivatives are computed as:
 \\\[\frac{\partial L}{\partial w_i^L} = \frac{\partial L}{\partial h^L}\frac{\partial h^L}{\partial w_i^L} \tag{2}\\\]
 \\\[\frac{\partial L}{\partial w_i^{L-1}} = \frac{\partial L}{\partial h^L}\frac{\partial h^L}{\partial x^{L-1}}\frac{\partial x^{L-1}}{\partial h^{L-1}}\frac{\partial h^{L-1}}{\partial w_i^{L-1}} \tag{3}\\\]
 and so forth.
