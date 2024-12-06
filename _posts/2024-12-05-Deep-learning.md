@@ -22,7 +22,7 @@ Figure 1 illustrates the structure of a single perceptron, which functions as a 
 <div style="text-align: center;">Fig.2. Multi-layer preceptron</div>
 </p>
 
-Optimizing neural network parameters typically involves an iterative process, known as "training," to minimize the loss function.
+Optimizing NN parameters typically involves an iterative process, known as "training," to minimize the loss function.
 <p align="center">
 <img src="https://github.com/icarusunimelb/skills-github-pages/blob/main/_posts/figures/training-loop.png?raw=true" alt="training-loop" title="training-loop" width="80%" height="80%">
 <div style="text-align: center;">Fig.3. Training loop</div>
@@ -43,10 +43,15 @@ To compute partial derivatives \\\(\frac{\partial L}{\partial w_i^l}\\\), backpr
 \\\[\frac{\partial L}{\partial w_i^{L-1}} = \frac{\partial L}{\partial h^L}\frac{\partial h^L}{\partial x^{L-1}}\frac{\partial x^{L-1}}{\partial h^{L-1}}\frac{\partial h^{L-1}}{\partial w_i^{L-1}} \tag{3}\\\]
 and so forth.
 
+Having outlined the basic framework of NNs, we now turn to a key aspect of deep learning: its generalization ability.
+
+## Generalization
+
 
 
 
 
 ## References
 [1] Rubinstein, B.I. (2020, August). Statistical machine learning [PowerPoint slides]. School of Computing and Information Systems, The University of Melbourne. \
-[2] Bengio, Y., Goodfellow, I., & Courville, A. (2017). Deep learning (Vol. 1). Cambridge, MA, USA: MIT press.
+[2] Bengio, Y., Goodfellow, I., & Courville, A. (2017). Deep learning (Vol. 1). Cambridge, MA, USA: MIT press. \
+[3] Chen, Y., Yu, S. S., Li, Z., Eshraghian, J. K., & Lim, C. P. Interplay between Bayesian Neural Networks and Deep Learning: A Survey. Available at SSRN 5009452.
