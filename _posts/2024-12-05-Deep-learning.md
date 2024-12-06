@@ -7,11 +7,11 @@ date: 2024-12-05
 Deep learning is a hot research field these years and many architectures and training algorithms are proposed. Let us begin with a simplest case - a stochastic gradient descent (SGD) algorithm trained multi-layer preceptrons (also called feedforward neural networks (NNs)) for supervised learning task. 
 
 A feed-forward NN consisting of \\\(L\\\) layers, each defined by weight matrices \\\(W^1,...,W^L\\\) and post-activation vectors \\\(x^1,...,x^L\\\), with \\\(N_l\\\) neurons per layer. Then the network dynamics, starting from the input \\\(x^0\\\), are described by 
-$$x^l=\phi(h^l), h^l=Wx^{l-1}+b^l, \text{ for }l=1,...,L,\tag{1}$$
-where \\\(b^l\\\) denotes the bias vector, \\\(h^l\\\) represents the linear pre-activations, and \\\(\phi\\\) is a non-linear activation function. A complete set of NN parameters is \\\(\theta=\{W^l,b^l\}_{l=1}^L\\\), and the output for input \\\(x^0\\\) is \\\(\hat{y}=h^L=f(x^0,\theta)\\\), where the mapping function \\\(f\\\) is recursively defined by Eq. [1]. 
+\\\[x^l=\phi(h^l), h^l=Wx^{l-1}+b^l, \text{ for }l=1,...,L,\tag{1}\\\]
+where \\\(b^l\\\) denotes the bias vector, \\\(h^l\\\) represents the linear pre-activations, and \\\(\phi\\\) is a non-linear activation function. A complete set of NN parameters is \\\(\theta=\\\{W^l,b^l\\\}_{l=1}^L\\\), and the output for input \\\(x^0\\\) is \\\(\hat{y}=h^L=f(x^0,\theta)\\\), where the mapping function \\\(f\\\) is recursively defined by Eq. [1]. 
 
 <p align="center">
-<img src="https://github.com/icarusunimelb/skills-github-pages/tree/main/_posts/figures/perceptron.png" alt="Perceptron" width="60%" height="60%">
+<img src="https://github.com/icarusunimelb/skills-github-pages/blob/main/_posts/figures/perceptron.png?raw=true" alt="Perceptron" width="60%" height="60%">
 </p>
 
 
