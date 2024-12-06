@@ -18,7 +18,7 @@ where \\\(b^l\\\) denotes the bias vector, \\\(h^l\\\) represents the linear pre
 Figure 1 illustrates the structure of a single perceptron, which functions as a linear binary classifier but cannot handle non-linearly separable data. To address this limitation, multi-layer perceptrons were developed, as shown in Figure 2.
 
 <p align="center">
-<img src="https://github.com/icarusunimelb/skills-github-pages/blob/main/_posts/figures/perceptron.png?raw=true" alt="MLP" title="Multi-layer preceptron" width="60%" height="60%">
+<img src="https://github.com/icarusunimelb/skills-github-pages/blob/main/_posts/figures/MLP.png?raw=true" alt="MLP" title="Multi-layer preceptron" width="60%" height="60%">
 <div style="text-align: center;">Fig.2. Multi-layer preceptron</div>
 </p>
 
