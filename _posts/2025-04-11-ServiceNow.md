@@ -54,21 +54,21 @@ Some key operations:
 * **Create the data model**
 
 <p align="center">
-<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/Data-model.png?raw=true" alt="Data" title="Create the data model" width="75%" height="75%">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/Data-model.png?raw=true" alt="Data" title="Create the data model" width="100%" height="100%">
 <div style="text-align: center;">Fig.1. Create the data model</div>
 </p>
 
 * **Build the request form**
 
 <p align="center">
-<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/Request-form.png?raw=true" alt="Form" title="Build the request form" width="75%" height="75%">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/Request-form.png?raw=true" alt="Form" title="Build the request form" width="100%" height="100%">
 <div style="text-align: center;">Fig.2. Build the request form</div>
 </p>
 
 * **Create the request record producer**
 
 <p align="center">
-<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/Request-record-producer.png?raw=true" alt="Request-record-producer" title="Create the request record producer" width="75%" height="75%">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/Request-record-producer.png?raw=true" alt="Request-record-producer" title="Create the request record producer" width="100%" height="100%">
 <div style="text-align: center;">Fig.3. Create the request record producer</div>
 </p>
 
