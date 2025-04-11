@@ -104,23 +104,16 @@ ServiceNow has developed its own domain-specific LLMs that are trained and fine-
 
 This section will focus on NowAssist.
 
-### Benefits from NowAssist
+To enable NowAssist, please check <a href="https://www.servicenow.com/docs/bundle/yokohama-intelligent-experiences/page/administer/now-assist-platform/concept/platform-now-assist-landing.html">Guideline for NowAssist</a>.
 
-1. **Supercharge productivity**. Free your people from repetitive tasks using autonomous AI agents that proactively learn, reason, collaborate, and solve problems.
-2. **Detect major incidents**. Quickly identify critical issues by proactively identifying similarities across open incidents or cases.
-3. **Route and prioritize work**. Classify requests so incidents, cases, and tasks automatically get to the right team, at the right time.
-4. **Deliver better self-service**. Make it easy for users to get what they need with a 24/7 Virtual Agent that understands their requests in natural language.
-5. **Optimize knowledge bases**. Deflect tickets and reduce call volume by uncovering knowledge gaps and preventing duplicate content.
-6. **Quickly identify opportunities to automate**. End the struggle with how and when to turn-on automation solutions from ServiceNow and increase deflection while lowering mean-time-to-resolve (MTTR).
-7. **Recommend actions and deliver answers**. Connect the dots for agents by suggesting relevant tasks and content that help them solve issues faster.
-8. **Empower users with search**. Gain highly accurate and relevant search results for an enhanced user experience.
-9. **Discover hidden patterns**. Continuously group clusters of related items to uncover trends and the best opportunities for improvement.
-10. **Summarisation**. Generate summaries for cases, chats, incidents and more. A guided setup in the Now Assist admin console makes it fast and simple.
-11. **Conversational exchanges**. Apply GenAI skills in the form of chatbots and virtual agents. Now Assist uses large language models (LLMs) designed for successful self-service workflows.
-12. **Content creation**. Help your HR, IT and customer service agents create and edit written content, such as emails and chat replies. 
-13. **Code and flow generation**. Use AI for code generation to build flows and code with Now Assist. Boost productivity with easy-to-use text prompts that let creators generate and edit quickly. <a href="https://www.servicenow.com/docs/bundle/xanadu-application-development/page/script/now-assist-for-code/concept/now-assist-code-landing.html"> Guideline for code generation. </a>
-14. **Custom skills development**. Create and deploy custom GenAI skills that are unique to your business workflows and processes.
-15. **AI search**. Give your users more meaningful searches. Our LLM answers search questions with actionable and relevant AI-generated summaries. 
+### NowAssist products
+
+|Workflow|Business areas|Available product|
+|---|---|---|
+|Technology|The Technology workflow includes IT applications, such as IT services and operations, managing your strategy to deliver products and services, and platform security.|<a href="https://www.servicenow.com/docs/bundle/yokohama-servicenow-platform/page/product/configuration-management/concept/now-assist-landing-cmdb.html">Now Assist for Configuration Management Database (CMDB)</a>|
+
+<a href="https://www.servicenow.com/docs/bundle/xanadu-application-development/page/script/now-assist-for-code/concept/now-assist-code-landing.html"> Guideline for code generation. </a>
+
 
 ## References
 [1] https://www.tutorialspoint.com/servicenow/index.htm \
