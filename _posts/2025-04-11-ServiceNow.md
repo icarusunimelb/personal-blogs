@@ -3,10 +3,17 @@ title: "Getting started with ServiceNow: A developer perspective"
 date: 2025-04-11
 ---
 
-## Introduction
+## Table of contents
+1. [Introduction](#introduction)
+2. [ITIL](#itil)
+3. [Cloud](#cloud)
+4. [App Engine](#app-engine)
+    1. [Request-fulfill workflow](#request-fulfill-workflow)
+
+## Introduction <a name="introduction"></a>
 ServiceNow is a cloud based platform, which was mainly developed for workflow and process automation as per the Information Technology Infrastructure Library (ITIL) principles. However, it is highly customisable and also can be used for other purposes. This tutorial will primarily focus on its basic concepts, App Engine, NowAssist AI, and Strategic Portfolio Management modules.
 
-## ITIL
+## ITIL <a name="itil"></a>
 ITIL is a library of best practices that are employed in IT service management (ITSM)—the practice of planning, implementing, managing and optimizing information technology services to meet the needs of users and help organizations achieve their business goals.
 
 ITIL can be divided into five main stages, including **Service Strategy**, **Service Design**, **Service Transition**, **Service Operation**, and **Continual Service Improvement**. Every stage has a specific role to play in a service life cycle and form the skeleton of ITIL. For the details, please check <a href="https://www.tutorialspoint.com/servicenow/servicenow_itil.htm"> Ref. [1] </a>. 
@@ -21,7 +28,7 @@ The benefits of ITIL are as follows:
 * Reduced IT costs
 * Enhanced communication within teams and across stakeholders
 
-## Cloud
+## Cloud <a name="cloud"></a>
 Here we briefly introduce cloud service models, which are categorised based on the services offered by the cloud service providers.
 * **Infrastructure as a service (IaaS)**. This is the most fundamental level of cloud service, where in customer only takes computing resources or virtual hardware like storage, CPU, RAM, etc. from the cloud service providers.
 * **Platform as a service (PaaS)**. This is one level further to IaaS. Here, along with the computing resources/virtual hardware, operating system, some software service and tools are also provided by the cloud service providers.
@@ -29,9 +36,10 @@ Here we briefly introduce cloud service models, which are categorised based on t
 
 ServiceNow is a highly flexible application which provides the option of PaaS as well as SaaS. Its SaaS offering provides fully functional workflow automation and ITSM tools, while its PaaS offering, allows the user to develop a custom application on the top of existing suite, as per the business requirement.
 
-## App Engine
+## App Engine <a name="app-engine"></a>
+Access developer mode using  <a href="https://dev315586.service-now.com/"> https://dev315586.service-now.com/</a>.
 
-### Request-fulfill workflow
+### Request-fulfill workflow <a name="request-fulfill-workflow"></a>
 The request-fulfill workflow is the backbone of ServiceNow applications, as it provides a structured mechanism for managing service requests and incidents. In the request-fulfill workflow, ServiceNow generally categorizes the users into two distinct personas: Requestors and Fulfillers.
 * **Requestors**. A Requestor is an end user who submits service requests and interacts with the platform primarily to seek assistance or resources. Their role is focused on initiating requests. 
 * **Fulfillers**. A Fulfiller is responsible for processing, managing, and resolving service requests or incidents submitted by requestors. They ensure that business operations run smoothly by addressing user needs efficiently.
@@ -41,6 +49,33 @@ Starting with a request-fulfiller workflow is an effective way to achieve positi
 2. **Developing Record Producers**: Setting up user-friendly request submission forms to streamline how users make service requests.
 3. **Creating Fulfiller Workspace**: Configuring dashboards and views to enhance productivity for fulfillers.
 4. **Automating Processes Using Flow Designer**: Implementing automation rules to reduce manual work, enforce business policies, and ensure timely resolution of requests.
+
+Some key operations:
+* **Create the data model**
+
+<p align="center">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/Data-model.png?raw=true" alt="Data" title="Create the data model" width="75%" height="75%">
+<div style="text-align: center;">Fig.1. Create the data model</div>
+</p>
+
+* **Build the request form**
+
+<p align="center">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/Request-form.png?raw=true" alt="Form" title="Build the request form" width="75%" height="75%">
+<div style="text-align: center;">Fig.2. Build the request form</div>
+</p>
+
+* **Create the request record producer**
+
+<p align="center">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/Request-record-producer.png?raw=true" alt="Request-record-producer" title="Create the request record producer" width="75%" height="75%">
+<div style="text-align: center;">Fig.3. Create the request record producer</div>
+</p>
+
+* **Create the fulfiller workspace**
+
+
+
 
 For the details, please check <a href="https://www.servicenow.com/community/app-development-blog/begin-with-a-request-fulfill-workflow/ba-p/3189777"> Ref. [4] </a> and <a href="https://www.servicenow.com/community/app-development-blog/app-engine-getting-started-guide-custom-application-development/ba-p/3223491?attachment-id=273369"> Ref. [5] </a>.
 
