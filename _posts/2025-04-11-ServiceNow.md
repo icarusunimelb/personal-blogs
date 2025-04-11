@@ -31,6 +31,6 @@ ServiceNow is a highly flexible application which provides the option of PaaS as
 
 
 ## References
-[1] https://www.tutorialspoint.com/servicenow/index.htm
-[2] https://www.servicenow.com/community/app-dev-get-started/ct-p/app-dev-get-started
+[1] https://www.tutorialspoint.com/servicenow/index.htm \
+[2] https://www.servicenow.com/community/app-dev-get-started/ct-p/app-dev-get-started \
 [3] https://www.ibm.com/think/topics/it-infrastructure-library#:~:text=ITIL%20stands%20for%20Information%20Technology,practices%20in%20IT%20service%20management.
