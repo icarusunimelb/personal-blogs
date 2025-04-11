@@ -10,6 +10,8 @@ date: 2025-04-11
 4. [App Engine](#app-engine)
     1. [Request-fulfill workflow](#request-fulfill-workflow)
 5. [NowAssist AI](#nowassist-ai)
+    1. [NowAssist products](#nowassist-products)
+    2. [NowAssist benefits](#nowassist-benefits)
 
 ## Introduction <a name="introduction"></a>
 ServiceNow is a cloud based platform, which was mainly developed for workflow and process automation as per the Information Technology Infrastructure Library (ITIL) principles. However, it is highly customisable and also can be used for other purposes. This tutorial will primarily focus on its basic concepts, App Engine, NowAssist AI, and Strategic Portfolio Management modules.
@@ -106,7 +108,7 @@ This section will focus on NowAssist.
 
 To enable NowAssist, please check <a href="https://www.servicenow.com/docs/bundle/yokohama-intelligent-experiences/page/administer/now-assist-platform/concept/platform-now-assist-landing.html">Guideline for NowAssist</a>.
 
-### NowAssist products
+### NowAssist products <a name="nowassist-products"></a>
 
 |Workflow|Business areas|Available product|
 |---|---|---|
@@ -126,7 +128,7 @@ Now Assist products include some or all of the following foundational platform t
 * Use <a href="https://www.servicenow.com/docs/bundle/yokohama-conversational-interfaces/page/administer/now-assist-in-va/concept/now-assist-in-va-landing.html">Now Assist in Virtual Agent</a> to create conversational catalog experiences and author topics that use LLM topic discovery.
 * Developers can use the <a href="https://www.servicenow.com/docs/bundle/yokohama-intelligent-experiences/page/administer/generative-ai-controller/concept/generative-ai-controller.html">Generative AI Controller</a> to integrate generative AI features in custom flows and conversations by using your own third-party large language model (LLM) licenses.
 
-### NowAssist benefits
+### NowAssist benefits <a name="nowassist-benefits"></a>
 
 |Benefit|Feature|Users|
 |---|---|---|
