@@ -108,7 +108,7 @@ To enable NowAssist, please check <a href="https://www.servicenow.com/docs/bundl
 
 ### NowAssist products
 
-2:52
+2:55
 
 |Workflow|Business areas|Available product|
 |---|---|---|
