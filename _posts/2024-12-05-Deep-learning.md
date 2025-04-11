@@ -43,10 +43,6 @@ To compute partial derivatives \\\(\frac{\partial L}{\partial w_i^l}\\\) for upd
 \\\[\frac{\partial L}{\partial w_i^{L-1}} = \frac{\partial L}{\partial h^L}\frac{\partial h^L}{\partial x^{L-1}}\frac{\partial x^{L-1}}{\partial h^{L-1}}\frac{\partial h^{L-1}}{\partial w_i^{L-1}} \tag{3}\\\]
 and so forth.
 
-Having outlined the basic framework of NNs, we now turn to a key aspect of deep learning: its generalization ability.
-
-## Generalization
-
 
 
 
