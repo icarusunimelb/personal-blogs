@@ -9,6 +9,7 @@ date: 2025-04-11
 3. [Cloud](#cloud)
 4. [App Engine](#app-engine)
     1. [Request-fulfill workflow](#request-fulfill-workflow)
+5. [NowAssist AI](#nowassist-ai)
 
 ## Introduction <a name="introduction"></a>
 ServiceNow is a cloud based platform, which was mainly developed for workflow and process automation as per the Information Technology Infrastructure Library (ITIL) principles. However, it is highly customisable and also can be used for other purposes. This tutorial will primarily focus on its basic concepts, App Engine, NowAssist AI, and Strategic Portfolio Management modules.
@@ -74,10 +75,25 @@ Some key operations:
 
 * **Create the fulfiller workspace**
 
+<p align="center">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/Workspace.png?raw=true" alt="Workspace" title="Create the fulfiller workspace" width="100%" height="100%">
+<div style="text-align: center;">Fig.3. Create the fulfiller workspace</div>
+</p>
 
+* **Set up the department approvers**
 
+<p align="center">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/Dept-approvers.png.png?raw=true" alt="Dept-approvers.png" title="Set up the department approvers" width="100%" height="100%">
+<div style="text-align: center;">Fig.3. Set up the department approvers</div>
+</p>
 
 For the details, please check <a href="https://www.servicenow.com/community/app-development-blog/begin-with-a-request-fulfill-workflow/ba-p/3189777"> Ref. [4] </a> and <a href="https://www.servicenow.com/community/app-development-blog/app-engine-getting-started-guide-custom-application-development/ba-p/3223491?attachment-id=273369"> Ref. [5] </a>.
+
+* **Add the workflow with flow designer**
+<span style="color:red">TODO: Continue go through the App Engine lab from page 22.</span>.
+
+## NowAssist AI <a name="nowassist-ai"></a>
+
 
 ## References
 [1] https://www.tutorialspoint.com/servicenow/index.htm \
