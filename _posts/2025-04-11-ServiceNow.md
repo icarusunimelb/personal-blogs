@@ -173,7 +173,7 @@ After deciding which skills best fit your business needs, you can activate them 
 ### NowAssist context menu <a name="nowassist-context-menu"></a>
 The **NowAssist context menu** leverages generative AI to enhance agents' writing tasks by summarizing, creating, and editing content across various applications in ServiceNow.
 
-The NowAssist context menu is available on any field where the floating NowAssist button (<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/wwna-icon.png?raw=true" alt="floating Now Assist button" title="floating Now Assist button" width="100%" height="100%">) appears. If you start typing in the field, a menu appears with the available Now Assist context menu actions.
+The NowAssist context menu is available on any field where the floating NowAssist button (<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/wwna-icon.png?raw=true" alt="floating Now Assist button" title="floating Now Assist button" width="1%" height="1%">) appears. If you start typing in the field, a menu appears with the available Now Assist context menu actions.
 
 ## References
 [1] https://www.tutorialspoint.com/servicenow/index.htm \
