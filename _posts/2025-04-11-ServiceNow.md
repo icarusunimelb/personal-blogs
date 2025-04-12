@@ -145,7 +145,7 @@ Now Assist products include some or all of the following foundational platform t
 |Monitor Now Assist consumption on your instance.|<a href="https://www.servicenow.com/docs/bundle/yokohama-platform-administration/page/administer/subscription-management/concept/monitoring-now-assist-usage.html">Monitoring Now Assist usage in Subscription Management</a>|Administrators|
 |Code generation|<a href="https://www.servicenow.com/docs/bundle/xanadu-application-development/page/script/now-assist-for-code/concept/now-assist-code-landing.html">Now Assist for Code</a>|Developers|
 
-### NowAssist Admin console <a name="nowassist-admin-console"></a>
+### NowAssist Admin console <a name="nowassist-admin-console"></a> (<a href="https://www.servicenow.com/docs/bundle/yokohama-intelligent-experiences/page/administer/now-assist-platform/concept/now-assist-write-overview.html">source</a>)
 The NowAssist Admin console contains everything that you need to install, configure, and learn about the different generative AI features on the Now Platform.
 
 <p align="center">
@@ -173,7 +173,14 @@ After deciding which skills best fit your business needs, you can activate them 
 ### NowAssist context menu <a name="nowassist-context-menu"></a>
 The **NowAssist context menu** leverages generative AI to enhance agents' writing tasks by summarizing, creating, and editing content across various applications in ServiceNow.
 
-The NowAssist context menu is available on any field where the floating NowAssist button (<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/wwna-icon.png?raw=true" alt="floating Now Assist button" title="floating Now Assist button" width="1%" height="1%">) appears. If you start typing in the field, a menu appears with the available Now Assist context menu actions.
+The NowAssist context menu is available on any field where the floating NowAssist button (<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/wwna-icon.png?raw=true" alt="floating Now Assist button" title="floating Now Assist button" width="2%" height="2%">) appears. If you start typing in the field, a menu appears with the available Now Assist context menu actions.
+
+Something NowAssist context menu can do:
+1. Chat window using the NowAssist context menu
+2. Change request risk explanation using the NowAssist context menu
+3. Content editing in Knowledge Base articles using the NowAssist content menu
+4. Change Tone using NowAssist context menu
+5. Limit the number of content refinement calls using the NowAssist context menu
 
 ## References
 [1] https://www.tutorialspoint.com/servicenow/index.htm \
