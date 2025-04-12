@@ -12,6 +12,8 @@ date: 2025-04-11
 5. [NowAssist AI](#nowassist-ai)
     1. [NowAssist products](#nowassist-products)
     2. [NowAssist benefits](#nowassist-benefits)
+    3. [NowAssist Admin console](#nowassist-admin-console)
+    4. [NowAssist context menu](#nowassist-context-menu)
 
 ## Introduction <a name="introduction"></a>
 ServiceNow is a cloud based platform, which was mainly developed for workflow and process automation as per the Information Technology Infrastructure Library (ITIL) principles. However, it is highly customisable and also can be used for other purposes. This tutorial will primarily focus on its basic concepts, App Engine, NowAssist AI, and Strategic Portfolio Management modules.
@@ -58,35 +60,35 @@ Some key operations:
 
 <p align="center">
 <img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/Data-model.png?raw=true" alt="Data" title="Create the data model" width="100%" height="100%">
-<div style="text-align: center;">Fig.1. Create the data model</div>
+<div style="text-align: center;">Fig. Create the data model</div>
 </p>
 
 * **Build the request form**
 
 <p align="center">
 <img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/Request-form.png?raw=true" alt="Form" title="Build the request form" width="100%" height="100%">
-<div style="text-align: center;">Fig.2. Build the request form</div>
+<div style="text-align: center;">Fig. Build the request form</div>
 </p>
 
 * **Create the request record producer**
 
 <p align="center">
 <img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/Request-record-producer.png?raw=true" alt="Request-record-producer" title="Create the request record producer" width="100%" height="100%">
-<div style="text-align: center;">Fig.3. Create the request record producer</div>
+<div style="text-align: center;">Fig. Create the request record producer</div>
 </p>
 
 * **Create the fulfiller workspace**
 
 <p align="center">
 <img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/Workspace.png?raw=true" alt="Workspace" title="Create the fulfiller workspace" width="100%" height="100%">
-<div style="text-align: center;">Fig.3. Create the fulfiller workspace</div>
+<div style="text-align: center;">Fig. Create the fulfiller workspace</div>
 </p>
 
 * **Set up the department approvers**
 
 <p align="center">
 <img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/Dept-approvers.png.png?raw=true" alt="Dept-approvers.png" title="Set up the department approvers" width="100%" height="100%">
-<div style="text-align: center;">Fig.3. Set up the department approvers</div>
+<div style="text-align: center;">Fig. Set up the department approvers</div>
 </p>
 
 For the details, please check <a href="https://www.servicenow.com/community/app-development-blog/begin-with-a-request-fulfill-workflow/ba-p/3189777"> Ref. [4] </a> and <a href="https://www.servicenow.com/community/app-development-blog/app-engine-getting-started-guide-custom-application-development/ba-p/3223491?attachment-id=273369"> Ref. [5] </a>.
@@ -143,8 +145,35 @@ Now Assist products include some or all of the following foundational platform t
 |Monitor Now Assist consumption on your instance.|<a href="https://www.servicenow.com/docs/bundle/yokohama-platform-administration/page/administer/subscription-management/concept/monitoring-now-assist-usage.html">Monitoring Now Assist usage in Subscription Management</a>|Administrators|
 |Code generation|<a href="https://www.servicenow.com/docs/bundle/xanadu-application-development/page/script/now-assist-for-code/concept/now-assist-code-landing.html">Now Assist for Code</a>|Developers|
 
+### NowAssist Admin console <a name="nowassist-admin-console"></a>
+The NowAssist Admin console contains everything that you need to install, configure, and learn about the different generative AI features on the Now Platform.
 
+<p align="center">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/now-assist-admin-console-overview.png?raw=true" alt="NowAssist Admin console" title="NowAssist Admin console" width="100%" height="100%">
+<div style="text-align: center;">Fig. NowAssist Admin overview page</div>
+</p>
 
+NowAssist Admin workflow includes five steps:
+1. **[Install plugins]** On the **Available for you** tab of the Settings page, you can review the available plugins and install the ones that are relevant to your business needs. Each plugin contains the skills that you can activate to enable generative AI features on your instance. 
+
+**Available for you tab on the NowAssist Admin Settings > Plugins page**
+
+2. **[Turn on the NowAssist panel]** The NowAssist panel integrates the Now Assist skills into the Next Experience UI. By turning on the NowAssist panel directly from the Now Assist Admin console, you enable agents to access skills from anywhere on the Now Platform.
+
+3. **[Activate skills]** Skills are features that are created for a specific use case in a Now Assist application. Use the NowAssist Admin Features page to explore the skills that are available with your installed plugins. By selecting the **View details** button, you can see more information about each skill.
+
+**Available NowAssist features and skills in the Technology workflow**
+
+After deciding which skills best fit your business needs, you can activate them from the console. Some skills require configuration so that you can customize the skill to your needs, such as determining the skill inputs and triggers. You can select the skills that you want to configure in the NowAssist Admin Features page.
+
+4. **[Review your Now Assist account settings]** The Now Assist Admin console Settings page enables you to set up language support, if you have Dynamic Translation enabled on your instance, and review your account details. Get up-to-date information about what plugins are available to you and the status of data sharing on your instance.
+
+5. **[Monitor and analyze skill performance]** Use the metrics available on the Overview page to review the summaries, performance information, and issues that need your attention. 
+
+### NowAssist context menu <a name="nowassist-context-menu"></a>
+The **NowAssist context menu** leverages generative AI to enhance agents' writing tasks by summarizing, creating, and editing content across various applications in ServiceNow.
+
+The NowAssist context menu is available on any field where the floating NowAssist button (<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/wwna-icon.png?raw=true" alt="floating Now Assist button" title="floating Now Assist button" width="100%" height="100%">) appears. If you start typing in the field, a menu appears with the available Now Assist context menu actions.
 
 ## References
 [1] https://www.tutorialspoint.com/servicenow/index.htm \
