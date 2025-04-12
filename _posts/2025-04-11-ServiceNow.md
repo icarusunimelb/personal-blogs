@@ -145,7 +145,7 @@ Now Assist products include some or all of the following foundational platform t
 |Monitor Now Assist consumption on your instance.|<a href="https://www.servicenow.com/docs/bundle/yokohama-platform-administration/page/administer/subscription-management/concept/monitoring-now-assist-usage.html">Monitoring Now Assist usage in Subscription Management</a>|Administrators|
 |Code generation|<a href="https://www.servicenow.com/docs/bundle/xanadu-application-development/page/script/now-assist-for-code/concept/now-assist-code-landing.html">Now Assist for Code</a>|Developers|
 
-### NowAssist Admin console <a name="nowassist-admin-console"></a> (<a href="https://www.servicenow.com/docs/bundle/yokohama-intelligent-experiences/page/administer/now-assist-platform/concept/now-assist-write-overview.html">source</a>)
+### NowAssist Admin console <a name="nowassist-admin-console"></a>
 The NowAssist Admin console contains everything that you need to install, configure, and learn about the different generative AI features on the Now Platform.
 
 <p align="center">
@@ -170,7 +170,7 @@ After deciding which skills best fit your business needs, you can activate them 
 
 5. **[Monitor and analyze skill performance]** Use the metrics available on the Overview page to review the summaries, performance information, and issues that need your attention. 
 
-### NowAssist context menu <a name="nowassist-context-menu"></a>
+### NowAssist context menu <a name="nowassist-context-menu"></a> (<a href="https://www.servicenow.com/docs/bundle/yokohama-intelligent-experiences/page/administer/now-assist-platform/concept/now-assist-write-overview.html">source</a>)
 The **NowAssist context menu** leverages generative AI to enhance agents' writing tasks by summarizing, creating, and editing content across various applications in ServiceNow.
 
 The NowAssist context menu is available on any field where the floating NowAssist button (<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/wwna-icon.png?raw=true" alt="floating Now Assist button" title="floating Now Assist button" width="2%" height="2%">) appears. If you start typing in the field, a menu appears with the available Now Assist context menu actions.
@@ -181,6 +181,15 @@ Something NowAssist context menu can do:
 3. Content editing in Knowledge Base articles using the NowAssist content menu
 4. Change Tone using NowAssist context menu
 5. Limit the number of content refinement calls using the NowAssist context menu
+6. Use the NowAssist context menu to compose or respond to emails with recommendations from Now Assist with generative AI template suggestions.
+7. Use the NowAssist context menu to generate a record summary for the page, using Generative AI application assisted summarization capabilities in workspaces and UI16.
+8. Use the NowAssist Context Menu dashboard to monitor the use of NowAssist Context Menu across the different applications. Key features include:
+    1. Usage matrix: The count or number of times, NowAssist context menu has been used during the selected duration.
+    2. Implicit feedback duration: The breakdown of feedback based on whether the response is inserted and closed during the selected time range. 
+    3. Usage trend by skill: The total usage distribution based on the skills that use the NowAssist context menu. 
+    4. Capacity Distribution: The capacity distribution based on the different applications that use the NowAssist context menu.
+    5. Response by feedback: The feedback field based on the Generative AI logs. 
+    6. Insights: View insights and suggestions for NowAssist usage.
 
 ## References
 [1] https://www.tutorialspoint.com/servicenow/index.htm \
