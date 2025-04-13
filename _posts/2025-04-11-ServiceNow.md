@@ -44,7 +44,7 @@ Here we briefly introduce cloud service models, which are categorised based on t
 ServiceNow is a highly flexible application which provides the option of PaaS as well as SaaS. Its SaaS offering provides fully functional workflow automation and ITSM tools, while its PaaS offering, allows the user to develop a custom application on the top of existing suite, as per the business requirement.
 
 ## App Engine <a name="app-engine"></a>
-Access developer mode using  <a href="https://dev315586.service-now.com/"> https://dev315586.service-now.com/</a>.
+Access developer mode using  https://dev{developer Id}.service-now.com/.
 
 ### Request-fulfill workflow <a name="request-fulfill-workflow"></a>
 The request-fulfill workflow is the backbone of ServiceNow applications, as it provides a structured mechanism for managing service requests and incidents. In the request-fulfill workflow, ServiceNow generally categorizes the users into two distinct personas: Requestors and Fulfillers.
