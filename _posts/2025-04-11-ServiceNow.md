@@ -255,7 +255,7 @@ Key applications and capabilitys:
 ### A tour of main functionalities of SPM <a name="SPM-functionalities"></a> (<a href="https://www.servicenow.com/au/products/strategic-portfolio-management.html">source</a>)
 
 <p align="center">
-<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM1.png?raw=true" width="100%" height="100%">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM1.png?raw=true" width="120%" height="120%">
 <img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM2.png?raw=true" width="100%" height="100%">
 <img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM3.png?raw=true" width="100%" height="100%">
 <img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM4.png?raw=true" width="100%" height="100%">
