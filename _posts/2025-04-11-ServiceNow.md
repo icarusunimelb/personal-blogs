@@ -254,14 +254,100 @@ Key applications and capabilitys:
 
 ### A tour of main functionalities of SPM <a name="SPM-functionalities"></a> (<a href="https://www.servicenow.com/au/products/strategic-portfolio-management.html">source</a>)
 
+Portfolio Managers can track progress and monitor the status of all related work, key results and initiatives, as well as **Strategic Priorities**.
 <p align="center">
-<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM1.png?raw=true" width="120%" height="120%">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM1.png?raw=true" width="100%" height="100%">
+</p>
+
+From the roadmap, view your **AI Transformation Journey** to track progress, monitor performance, and prioritize high-impact initiatives that bring the most value to your business.
+<p align="center">
 <img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM2.png?raw=true" width="100%" height="100%">
+</p>
+
+Capacity planning ensures better visibility into resource utilization, reduces conflicts and boosts efficiency, allowing your team to focus on the most critical tasks.
+<p align="center">
 <img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM3.png?raw=true" width="100%" height="100%">
+</p>
+
+Develop customer-centric products by leveraging insights from statistics and customer sentiment trends while staying in sync with top trending feedback.
+<p align="center">
 <img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM4.png?raw=true" width="100%" height="100%">
+</p>
+
+Use **AI-powered Feedback Summarization** to analyze multiple records at once.
+<p align="center">
 <img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM5.png?raw=true" width="100%" height="100%">
 </p>
 
+**Multi-Feedback Summarization** allows you to make informed decisions faster and achieve the best outcomes.
+<p align="center">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM6.png?raw=true" width="100%" height="100%">
+</p>
+
+When change happens(it always does),SPM empowers your organization to adapt swiftly.
+<p align="center">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM7.png?raw=true" width="100%" height="100%">
+</p>
+
+Leverage real-time insights and flexible planning tools to pivot and reprioritize with precision.
+<p align="center">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM8.png?raw=true" width="100%" height="100%">
+</p>
+
+Click next to create scenario.
+<p align="center">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM9.png?raw=true" width="100%" height="100%">
+</p>
+
+Leverage real-time insights and flexible planning tools to pivot and reprioritize with precision.
+<p align="center">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM10.png?raw=true" width="100%" height="100%">
+</p>
+
+Simulate and compare alternative scenarios to choose the best path forward.
+<p align="center">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM11.png?raw=true" width="100%" height="100%">
+</p>
+
+With **Project Workspace**, execute work using any methodology like **Waterfall ,Agile or Hybrid** while enforcing standardized processes and best practices.
+<p align="center">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM12.png?raw=true" width="100%" height="100%">
+</p>
+
+Strategic Planning Workspace delivers products faster with improved time-to-market. That’s a real transformation!
+<p align="center">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM13.png?raw=true" width="100%" height="100%">
+</p>
+
+Click the red pulse and click next to continue.
+<p align="center">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM14.png?raw=true" width="100%" height="100%">
+</p>
+
+With the **Export to PowerPoint** feature, you can share process and status updates effortlessly. Export informative details about your initiatives to PowerPoint instantly.
+<p align="center">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM15.png?raw=true" width="100%" height="100%">
+</p>
+
+Select the required Portfolio template.
+<p align="center">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM16.png?raw=true" width="100%" height="100%">
+</p>
+
+From the **Success Dashboard**, compare your performance against global benchmarks.
+<p align="center">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM17.png?raw=true" width="100%" height="100%">
+</p>
+
+You can also compare your metrics to the industry average of peers in order to measure success.
+<p align="center">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM18.png?raw=true" width="100%" height="100%">
+</p>
+
+Stay ahead of new demands by using **Generative AI** to simplify request capture, ensure data completeness, and streamline the evaluation process.
+<p align="center">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM19.png?raw=true" width="100%" height="100%">
+</p>
 
 ## References
 [1] https://www.tutorialspoint.com/servicenow/index.htm \
