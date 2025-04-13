@@ -14,6 +14,8 @@ date: 2025-04-11
     2. [NowAssist benefits](#nowassist-benefits)
     3. [NowAssist Admin console](#nowassist-admin-console)
     4. [NowAssist context menu](#nowassist-context-menu)
+6. [Strategic Portfolio Management](#SPM)
+    1. [What is strategic portfolio management?](#what-SPM)
 
 ## Introduction <a name="introduction"></a>
 ServiceNow is a cloud based platform, which was mainly developed for workflow and process automation as per the Information Technology Infrastructure Library (ITIL) principles. However, it is highly customisable and also can be used for other purposes. This tutorial will primarily focus on its basic concepts, App Engine, NowAssist AI, and Strategic Portfolio Management modules.
@@ -191,6 +193,63 @@ Something NowAssist context menu can do:
     5. Response by feedback: The feedback field based on the Generative AI logs. 
     6. Insights: View insights and suggestions for NowAssist usage.
 
+<span style="color:red">TODO: Continue go through the NowAssist AI.</span>.
+
+## Strategic Portfolio Management <a name="SPM"></a>
+
+### What is strategic portfolio management? <a name="what-SPM"></a>
+Strategic Portfolio Management (SPM) helps companies make smart decisions about where to invest their time, money, and people to support their big-picture goals.
+
+Why is it important?
+* It ensures investments (money and effort) are being used for things that truly matter to the business.
+* It helps leaders see what's working and what’s not, so they can adjust quickly.
+* It gives everyone a clear view of priorities, progress, and impact.
+
+What are the benefits of SPM?
+* Faster time to market
+* Improved response time to disruptions
+* Better alignment between strategy and execution
+* Improved efficiency
+* Cohesion of multiple disciplines
+* Increased agility
+* Improved speed overall
+* Big-picture focus
+* Ability to realise expected business value from digital initiatives
+
+What are the steps in SPM?
+* **Inventory**. First, assess and understand the strategic goals of the organisation, including both short- and long-term objectives. Second, take inventory of all available resources, including budgets and people. Lastly, review established priorities.
+* **Analysis**. Select key business metrics through which they may gauge success.
+* **Planning**.  Organisations develop a strategic portfolio plan that outlines the specific projects, programmes or initiatives that will be included in the portfolio. The plan should clearly define the goals and objectives of the portfolio, along with the key performance indicators (KPIs) that will be used to measure progress. Additionally, the plan must consider the allocation of resources, including budget, personnel and other assets, to ensure that the selected initiatives can be executed effectively. It is likewise important to consider emergent issues or other potential risks that may cause problems.
+* **Execution**. This stage involves implementing the projects and programmes according to the established priorities and resource allocations. Post execution, ongoing management is essential to ensure that the portfolio remains aligned with the organisation's strategic objectives and adapts to changing circumstances.
+
+What are SPM components?
+* Operating model development
+* IT portfolio management and enterprise portfolio management
+* Financial management
+* Risk and security management
+* Enterprise architecture governance
+
+Key applications and capabilitys:
+|Name|Description|
+|---|---|
+|NowAssist for SPM|Break down barriers with generative AI to deliver customer value quickly.|
+|Strategic Planning|Connect strategy to execution with end-to-end planning in a single workspace.|
+|Scenario Planning|Simulate and compare investment scenarios to align your portfolio with your business strategy.|
+|Investment Funding|Manage funds based on business needs and your organisation’s strategic objectives.|
+|Agile Development|Manage scrum or development work throughout the lifecycle from a unified backlog of tasks.|
+|Scaled Agile Framework|Align Agile software and product development efforts for speed and efficiency.|
+|Project Portfolio Management|Gain visibility into traditional, agile and hybrid work to optimise portfolios.|
+|Demand Management|Capture, assess and manage demands from the business in one location.|
+|Collaborative Work Management|Empower teams and simplify work with a hub for planning, visualisation and collaboration.|
+|Resource Management|See staff availability, allocation and capacities for all work tracked in ServiceNow.|
+|Innovation Management|Capture new ideas from across your organisation in a single location.|
+|Digital Portfolio Management|Make informed decisions with a unified view of services, products and apps.|
+|Release Management|Plan, design, build, configure and test hardware and software and software releases with precision.|
+|Predictive Intelligence|Simplify and accelerate everyday work with built-in machine learning.|
+|Virtual Agent|Resolve issues fast with an intelligent chatbot that understands simple, human language.|
+|Process Mining|Improve outcomes by optimising process flows to streamline work.|
+|Performance Analytics|Anticipate trends, prioritise resources and continuously improve with real-time analytics.|
+
 ## References
 [1] https://www.tutorialspoint.com/servicenow/index.htm \
 [2] https://www.servicenow.com/community/app-dev-get-started/ct-p/app-dev-get-started \
@@ -199,3 +258,5 @@ Something NowAssist context menu can do:
 [5] https://www.servicenow.com/community/app-development-blog/app-engine-getting-started-guide-custom-application-development/ba-p/3223491?attachment-id=273369 \
 [6] https://www.servicenow.com/au/ai.html \
 [7] https://www.servicenow.com/au/standard/resource-center/infographic/ai-infographic-layout.html \
+[8] https://www.servicenow.com/au/products/strategic-portfolio-management.html \
+[9] https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/resource-center/infographic/info-turn-strategy-to-reality-spm.pdf \
