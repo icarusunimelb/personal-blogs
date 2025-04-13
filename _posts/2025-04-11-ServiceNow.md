@@ -230,25 +230,26 @@ What are SPM components?
 * Enterprise architecture governance
 
 Key applications and capabilitys:
+
 |Name|Description|
 |---|---|
 |NowAssist for SPM|Break down barriers with generative AI to deliver customer value quickly.|
-|Strategic Planning|Connect strategy to execution with end-to-end planning in a single workspace.|
-|Scenario Planning|Simulate and compare investment scenarios to align your portfolio with your business strategy.|
+|<a href="https://www.servicenow.com/au/products/strategic-planning.html">Strategic Planning</a>|Connect strategy to execution with end-to-end planning in a single workspace.|
+|<a href="https://www.servicenow.com/au/products/scenario-planning.html">Scenario Planning</a>|Simulate and compare investment scenarios to align your portfolio with your business strategy.|
 |Investment Funding|Manage funds based on business needs and your organisation’s strategic objectives.|
-|Agile Development|Manage scrum or development work throughout the lifecycle from a unified backlog of tasks.|
-|Scaled Agile Framework|Align Agile software and product development efforts for speed and efficiency.|
-|Project Portfolio Management|Gain visibility into traditional, agile and hybrid work to optimise portfolios.|
-|Demand Management|Capture, assess and manage demands from the business in one location.|
-|Collaborative Work Management|Empower teams and simplify work with a hub for planning, visualisation and collaboration.|
-|Resource Management|See staff availability, allocation and capacities for all work tracked in ServiceNow.|
-|Innovation Management|Capture new ideas from across your organisation in a single location.|
-|Digital Portfolio Management|Make informed decisions with a unified view of services, products and apps.|
+|<a href="https://www.servicenow.com/au/products/agile-development.html">Agile Development</a>|Manage scrum or development work throughout the lifecycle from a unified backlog of tasks.|
+|<a href="https://www.servicenow.com/au/products/scaled-agile-framework.html">Scaled Agile Framework</a>|Align Agile software and product development efforts for speed and efficiency.|
+|<a href="https://www.servicenow.com/au/products/project-portfolio-management.html">Project Portfolio Management</a>|Gain visibility into traditional, agile and hybrid work to optimise portfolios.|
+|<a href="https://www.servicenow.com/au/products/demand-management.html">Demand Management</a>|Capture, assess and manage demands from the business in one location.|
+|<a href="https://www.servicenow.com/au/products/collaborative-work-management.html">Collaborative Work Management</a>|Empower teams and simplify work with a hub for planning, visualisation and collaboration.|
+|<a href="https://www.servicenow.com/au/products/resource-management.html">Resource Management</a>|See staff availability, allocation and capacities for all work tracked in ServiceNow.|
+|<a href="https://www.servicenow.com/au/products/innovation-management.html">Innovation Management</a>|Capture new ideas from across your organisation in a single location.|
+|<a href="https://www.servicenow.com/au/products/digital-portfolio-management.html">Digital Portfolio Management</a>|Make informed decisions with a unified view of services, products and apps.|
 |Release Management|Plan, design, build, configure and test hardware and software and software releases with precision.|
-|Predictive Intelligence|Simplify and accelerate everyday work with built-in machine learning.|
-|Virtual Agent|Resolve issues fast with an intelligent chatbot that understands simple, human language.|
-|Process Mining|Improve outcomes by optimising process flows to streamline work.|
-|Performance Analytics|Anticipate trends, prioritise resources and continuously improve with real-time analytics.|
+|<a href="https://www.servicenow.com/au/products/predictive-intelligence.html">Predictive Intelligence</a>|Simplify and accelerate everyday work with built-in machine learning.|
+|<a href="https://www.servicenow.com/au/products/virtual-agent.html">Virtual Agent</a>|Resolve issues fast with an intelligent chatbot that understands simple, human language.|
+|<a href="https://www.servicenow.com/au/products/process-mining.html">Process Mining</a>|Improve outcomes by optimising process flows to streamline work.|
+|<a href="https://www.servicenow.com/au/products/performance-analytics.html">Performance Analytics</a>|Anticipate trends, prioritise resources and continuously improve with real-time analytics.|
 
 ## References
 [1] https://www.tutorialspoint.com/servicenow/index.htm \
