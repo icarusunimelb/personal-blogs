@@ -16,6 +16,7 @@ date: 2025-04-11
     4. [NowAssist context menu](#nowassist-context-menu)
 6. [Strategic Portfolio Management](#SPM)
     1. [What is strategic portfolio management?](#what-SPM)
+    2. [A tour of main functionalities of SPM](#SPM-functionalities)
 
 ## Introduction <a name="introduction"></a>
 ServiceNow is a cloud based platform, which was mainly developed for workflow and process automation as per the Information Technology Infrastructure Library (ITIL) principles. However, it is highly customisable and also can be used for other purposes. This tutorial will primarily focus on its basic concepts, App Engine, NowAssist AI, and Strategic Portfolio Management modules.
@@ -250,6 +251,17 @@ Key applications and capabilitys:
 |<a href="https://www.servicenow.com/au/products/virtual-agent.html">Virtual Agent</a>|Resolve issues fast with an intelligent chatbot that understands simple, human language.|
 |<a href="https://www.servicenow.com/au/products/process-mining.html">Process Mining</a>|Improve outcomes by optimising process flows to streamline work.|
 |<a href="https://www.servicenow.com/au/products/performance-analytics.html">Performance Analytics</a>|Anticipate trends, prioritise resources and continuously improve with real-time analytics.|
+
+### A tour of main functionalities of SPM <a name="SPM-functionalities"></a> (<a href="https://www.servicenow.com/au/products/strategic-portfolio-management.html">source</a>)
+
+<p align="center">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM1.png?raw=true" width="100%" height="100%">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM2.png?raw=true" width="100%" height="100%">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM3.png?raw=true" width="100%" height="100%">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM4.png?raw=true" width="100%" height="100%">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/SPM5.png?raw=true" width="100%" height="100%">
+</p>
+
 
 ## References
 [1] https://www.tutorialspoint.com/servicenow/index.htm \
