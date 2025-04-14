@@ -90,7 +90,7 @@ Some key operations:
 * **Set up the department approvers**
 
 <p align="center">
-<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/Dept-approvers.png.png?raw=true" alt="Dept-approvers.png" title="Set up the department approvers" width="100%" height="100%">
+<img src="https://github.com/icarusunimelb/personal-blogs/blob/main/_posts/figures/Dept-approvers.png?raw=true" alt="Dept-approvers.png" title="Set up the department approvers" width="100%" height="100%">
 <div style="text-align: center;">Fig. Set up the department approvers</div>
 </p>
 
