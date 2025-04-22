@@ -1,6 +1,7 @@
 ---
 title: "ServiceNow Learning Notes"
 date: 2025-04-11
+category: "ServiceNow"
 ---
 
 ## Table of contents
