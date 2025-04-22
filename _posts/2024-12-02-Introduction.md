@@ -24,6 +24,6 @@ If you feel this tutorial is useful, I would appreciate it if you would cite the
 @article{chen5009452interplay,
   title={Interplay between Bayesian Neural Networks and Deep Learning: A Survey},
   author={Chen, Yinsong and Yu, Samson S and Li, Zhong and Eshraghian, Jason K and Lim, Chee Peng},
-  journal={Available at SSRN: https://ssrn.com/abstract=5009452 or http://dx.doi.org/10.2139/ssrn.5009452}
+  journal={Available at SSRN: https://ssrn.com/abstract=5100162 or http://dx.doi.org/10.2139/ssrn.5100162}
 }
 ```
