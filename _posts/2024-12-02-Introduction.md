@@ -10,9 +10,11 @@ Here, we present a series of tutorials to introduce fundamental concepts and rec
 
 <ul>
   {% for post in site.posts reversed %}
-    <li>
-      <h4><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
-    </li>
+    {% if post.category == "Deep Learning" %}
+      <li>
+        <h4><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h4>
+      </li>
+    {% endif %}
   {% endfor %}
 </ul>
 
